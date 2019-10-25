@@ -292,6 +292,8 @@ html .home .inverse-content .img-content {
 }
 html .home .content-destination {
   width: 75%;
+  margin: 0 auto;
+  margin-bottom: 3%;
 }
 @media (max-width:500px) {
   html .home .content-destination {
@@ -314,6 +316,7 @@ html .home .content-pick {
 @media (max-width:500px) {
   html .home .content-pick {
     flex-direction: column;
+    margin-bottom: 10%;
   }
 }
 html .home .content-pick .destination {
@@ -327,7 +330,6 @@ html .home .content-pick .destination {
   html .home .content-pick .destination {
     width: 80%;
     margin: 0 auto;
-    margin-top: -12%;
   }
 }
 html .home .content-pick .destination .btn {
