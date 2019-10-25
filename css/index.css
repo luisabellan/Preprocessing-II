@@ -312,7 +312,6 @@ html .home .content-destination {
   width: 75%;
   margin: 0 auto;
   margin-bottom: 3%;
-  background-color: red;
 }
 @media (max-width:600px) {
   html .home .content-destination {
