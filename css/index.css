@@ -220,6 +220,11 @@ html header nav a {
   font-size: 1.6em;
   margin-right: 3em;
 }
+@media (max-width:435px) {
+  html header nav a {
+    margin-right: 15px;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
