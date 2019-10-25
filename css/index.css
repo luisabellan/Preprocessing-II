@@ -180,11 +180,6 @@ html header nav {
 @media (max-width:600px) {
   html header nav {
     flex-direction: column;
-  }
-}
-@media (max-width:500px) {
-  html header nav {
-    flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
     width: 100%;
