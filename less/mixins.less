@@ -1,13 +1,13 @@
 // Mixins in here
 
 
-.buttons{
+.buttons(@background, @color) {
     align-self: center;
-    background: #008080;
+    background: @background;
     width: 100%;
     height: 5em;
     padding-top: 1em;
-    color: white;
+    color: @color;
     border-radius:  12px;
   
     p{
