@@ -5,27 +5,43 @@ html header nav {
     justify-content: space-between;
     align-items: center;
     height: 7rem;
-    margin-right: 20px;
-    font-size: em;
-    div.logo{
-       
-      h1{
-      }
+    
+    border-bottom: 2px dashed @silver;
+   
+    @media @mobile{
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 2%;
+        
 
     }
    
-   
+    h1{
+       @media @mobile{
+           font-size: 3rem;
+           margin-top: 10%;
+       }
+   }
 
-      a{
+    a{
 
        
         text-decoration: none;
         margin-right: 30px;
-        margin-bottom: 5rem;
         font-family: 'Roboto',sans-serif;
         color: black;
-        font-size: 2rem;
-      }
+        font-size: 1.6em;
+        margin-right: 3em;
+
+        @media @mobile {
+        }
+
+
+
+      
+    }
     
     
 }
