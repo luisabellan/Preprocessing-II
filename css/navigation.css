@@ -1,0 +1,12 @@
+header.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+header.nav .logo {
+  background: red;
+}
+header.nav .logo h1 {
+  color: red;
+}
